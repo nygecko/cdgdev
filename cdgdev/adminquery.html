@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html> <head>
+<meta name="viewport" content="width=device-width">
+<title>Demo Search</title>
+<link rel='stylesheet' type='text/css' href='/css/style.css'></link>
+<script type='text/javascript' src='/js/test.js'></script>
+</head><body>
+<header> <hgroup> <h1>Demo Search</h1> </hgroup> </header>
+<article>
+<section><p>
+<div class="centerform">
+<form method='post' action='/getData/'>
+<label for='searchtitle'>Title</label>
+<input type='title' name='searchtitle' id='searchtitle' autofocus><br />
+<label for='searchdescription'>Description</label>
+<input type='text' name='searchdescription' id='searchdescription'><br />
+<label for='searchmessage'>Messages</label>
+<input type='text' name='searchmessage' id='searchmessage'><br />
+<label for='searchtech'>Technologies</label>
+<input type='text' name='searchtech' id='searchtech'><br />
+<input type='submit' value='search'/>
+</form></p>
+</div>
+</section></article>
+<footer><p><a href='/getCsv'>Upload multiple demos</a></p><p><a href='/putCsv'>Download existing demos</a></p><p><a href='/'>HOME</a></p><p>&copy; 2018.  All rights reserved.</p></footer>
+<!--<footer><p>&copy; 2018.  All rights reserved.</p></footer>-->
+</body></html>
